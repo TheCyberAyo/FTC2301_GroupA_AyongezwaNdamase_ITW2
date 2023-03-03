@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" style="width:100%">
   <head>
     <title>Ayongezwa Ndamase's Digital resume</title>
     <link rel="stylesheet" href="stylesheet.css">
     <style>
-      div {
-        width: 600px;
+      article {
+        width: 95%;
         height: 300px;
-        margin: 7px;
+        margin: 20px;
         padding: 10px;
         background-color: #d9d9d9;
         overflow: auto;
+      }
+      #leftbox {
+        float:left;
+        background:Red;
+        width:50%;
+        height:280px;
+      }
+      #rightbox {
+        float: right;
+        background: blue;
+        width: 50%;
+                height: 280px;
       }
       
     </style>
   </head>
   <body>
-    <header style>
-       
-         <div class="left">
+    <header>
+         <div id="leftbox">
            <h2 id="Contact Details"> Contact Details</h2>
            <p>
            <ol> 
@@ -28,32 +39,32 @@
            </ol>
            </p>
           </div>
-          <div>
-             <h1>Ayongezwa Ndamase</h1>
+          <div id="rightbox">
+            <h1>Ayongezwa Ndamase</h1>
              <p>Junior Web Developer</p>
+          </div>
+          <div>
+            <h1>WHATEVER</h1>
+            <p>Whatever I ever think of</p>
+            <p>Whatever I ever think of</p>
+            <p>Whatever I ever think of</p>
           </div>
            <div>
            <img src="intro-headshot.jpg" alt="Profile Image" width="150" height="150" >
          </div>
-         <div class="left">
-          <ul class="navigation">
+         <div>
+          <ol class="navigation">
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
-        </ul>
+          </ol>
         </div>
-    
+     </header>
        <p>Enthusiastic and hard working web developer with a four weeks experience seeking a position with Site Smart Solutions where I can offer my debugging expertise in Scratch to clients and customers.</p>
-       </header>
-    <section>
-    <aside>
-    
-    
-
       
-   </aside>
+
+  <section>
    <article>
-    <div>
      <h2 id="education" class="subtopic">EDUCATION</h2>
      <h3> Html and CSS basics at <a href="w3schools">w3schools</a></h3>
      <p>I learnt HTML5 basics, I got to understand the basic structure of an HTML page and the funtions of the different componenents of it.</p>
@@ -61,9 +72,9 @@
 
      <h2>Intro to web at <a href="CodeSpace Academy">CodeSpace Academy</a></h2>
      <p> I gained understanding of what the internet is, how it came to be and most importantly the purpose it serves. I also learnt about the different tools that are used world wide by other programmers, such as VSCode, Git/Github, etc.</p>
-     </div>
+   </article>
     
-    <div>
+    <article>
      <h2 id="experience" class="subtopic" >EXPERIENCE</h2>
      <h3>Game Developer</h3>
      <p>I designed a game using the Scratch tool by MIT. The game has sold immensely worldwide and has a great rate of downloads.</p>
@@ -72,15 +83,14 @@
      <h3>Junior Front-end Developer</h3>
      <p>I designed web pages using HTML mark-up language.</p>
      <p>In the process, I applied CSS and a bit of JavaScript, which has also induced my understanding and familiarity with the field.</p>
-    </div>
-     <div>
+    </article>
+     <article>
      <h2 id="skills"class="subtopic">SKILLS</h2>
      <ul>
        <li>HTML</li>
        <li>CSS </li>
        <li>Scratch</li>
      </ul>
-     </div>
      </article>
      </section>
      <footer>

@@ -1,3 +1,19 @@
+header {
+  background: #D9D9D9;
+  box-sizing: inherit;
+  width:100%;
+
+}
+section {
+  background: #E0C6A6;
+  box-sizing: inherit;
+  width: 95%;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+
 .content {
     font-size: 15px;
     margin: 7px;
@@ -7,8 +23,8 @@ h1 {
     color: #AA0000;
     font-size:20px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
     margin: 10px;
-    background-color: #E0c6a6;
 }
 h3 {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -37,6 +53,8 @@ p {
     border-radius: 120px 120px 120px 120px;
     margin: 20px;
     position: relative;
+    width: 150px;
+    height: 148px;
   }
 
 .navigation {
@@ -63,22 +81,31 @@ p {
   color: black;
 }
 
-.left_contentlist {
-  width: 300px;
-    float:right;
-    padding: 0px;
-    position:relative;
-    height: 150px;
-}
 
 .left {
  box-sizing: border-box;
- position: absolute;
- width: 328px;
+ position: relative;
+ float: left;
+ width: 400px;
  height: 162px;
  background: #D9D9D9;
- backdrop-filter: blur(2px);
+
 }
-.right
+.right {
+box-sizing: border-box;
+position: absolute;
+float: right;
+width: 320px;
+height: 162px;
+background: #E0C6A6;
+}
+
+.left_bottom {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50%;
+  height: 86px;
+  background: #E0C6A6;
+}
 
 
