@@ -33,7 +33,7 @@ p {
 
 .subtopic {
   color: black;
-    width: 70px;
+    width: 90px;
     height: -10px;
     font-size: 15px;
     font-weight: bold;
@@ -50,7 +50,6 @@ p {
   img {
     border-radius: 120px 120px 120px 120px;
     margin: 20px;
-    position: relative;
   }
 
 .navigation {
