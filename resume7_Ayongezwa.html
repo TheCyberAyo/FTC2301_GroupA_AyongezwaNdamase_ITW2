@@ -15,24 +15,28 @@
       }
       #leftbox {
         float:left;
+        justify-content: center;
         background:#d9d9d9;
         width:50%;
         height: 100px;
       }
       #rightbox {
         float: right;
+        justify-content: center;
         background: #e0c6a6;
         width: 50%;
         height: 100px;
       }
       #right {
         float: right;
+        justify-content: center;
         background: #d9d9d9;
         width: 50%;
         height: 86px;
       }
       #left {
         float: left;
+        justify-content: center;
         background: #e0c6a6;
         width: 50%;
         height: 86px;
@@ -43,7 +47,7 @@
     <header id="home">
       <div class="special">
         <nav>
-          <ul >
+          <ul style="display: flex; justify-content: center;">
             <li><a href="#home">HOME</a></li>
             <li><a href="">Background</a></li>
             <li><a href="#myprojects"> projects</a></li>
@@ -97,13 +101,7 @@
        <h2>Intro to web at <a href="CodeSpace Academy">CodeSpace Academy</a></h2>
        <p>I gained understanding of what the internet is, how it came to be and most importantly the purpose it serves. I also learnt about the different tools that are used world wide by other programmers, such as VSCode, Git/Github, etc.</p>
        <p> I gained understanding of what the internet is, how it came to be and most importantly the purpose it serves. I also learnt about the different tools that are used world wide by other programmers, such as VSCode, Git/Github, etc.</p>
-     </aside>
-  </article>
-    
-    <article>
-     <h2 id="experience" class="subtopic" >EXPERIENCE</h2>
-     <div>
-       <h3>Game Developer</h3>
+    </aside>
        <p>I designed a game using the Scratch tool by MIT. The game has sold immensely worldwide and has a great rate of downloads.</p>
        <p>I worked with a senior developer, hence we constanly communicated which has increased my communication skills which I have found to be crucial in this field.</p>
      </div>
@@ -127,8 +125,8 @@
          <li><a href="https://www.linkedin.com/in/ayongezwa-ndamase-761b14217/" target="_blank">LinkedIn</a></li>
          <li><a href="https://www.instagram.com/ayongezwah/" target="_blank">Instagram</a></li>
        </ul>
-       <form>
-        <input type="BUTTON" value="Back to top of page" onclick="window.location.href='#top'">
+       <form class="top">
+         <input type="BUTTON" value="Back to top of page" onclick="window.location.href='#top'">
        </form>
   </footer>
 </body>
