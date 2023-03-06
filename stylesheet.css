@@ -8,7 +8,7 @@ header {
 }
 section {
   font-size: 15px;
-  position: inherit ;
+  position: inherit;
   background: #E0C6A6;
   box-sizing: inherit;
   width: 95%;
@@ -17,15 +17,11 @@ section {
   border: 3px dotted #73AD21;
   padding: 10px;
 }
-div {
-  display: flex;
-  justify-content: center;
-  font-size: medium;
-}
     
 .special {
   background-color: #73AD21;
 }
+
 h1 {
     color: #AA0000;
     font-size:20px;
