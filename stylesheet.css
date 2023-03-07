@@ -89,6 +89,7 @@ nav ul li :hover {
 .top {
   display: flex;
   justify-content: center;
+  background-color: #E0C6A6;
 }
 
 li :hover {
@@ -112,9 +113,7 @@ article {
   height: 100px;
 }
 
-#leftbox-heading {
-  padding-left: 13.5em;
-}
+
 
 #rightbox {
   float: right;
@@ -140,4 +139,12 @@ article {
   width: 50%;
   height: 86px;
   text-decoration: none;
+}
+
+.f1 {
+background-color: #D9D9D9;
+}
+
+.f2 {
+background-color: #E0C6A6;
 }
