@@ -12,21 +12,30 @@
 </head>
 
 <body>
+     <div class="special">
+       <nav>
+         <ul style="display: flex; justify-content: center;">
+           <li><a href="#home">HOME</a></li>
+           <li><a w3-include-html="background.html"> Background</a></li>
+           <li><a href="#myprojects"> projects</a></li>
+           <li><a href="#contacts">Contact Me</a></li>
+         </ul>
+       </nav>
+     </div>
 
   <header id="home">
+    <div class="hero-image">
+      <div class="hero-text"> 
+       <picture>
+         <source media="(max-width: 650px)"srcset="images\hero2.jpg">
+         <source media="(max-width: 1000px)"srcset="images\hero2.jpg">
+         <img src="images\hero2.jpg"alt="person on a bridge">
+       <h1>Hi, I am Ayongezwa</h1>
+      </picture>
+      </div>
+   </div>
 
-
-    <div class="special">
-      <nav>
-        <ul style="display: flex; justify-content: center;">
-          <li><a href="#home">HOME</a></li>
-          <li><a w3-include-html="background.html"> Background</a></li>
-          <li><a href="#myprojects"> projects</a></li>
-          <li><a href="#contacts">Contact Me</a></li>
-
-        </ul>
-      </nav>
-    </div>
+      
 
 
     <div id="leftbox">
@@ -61,6 +70,16 @@
     </div>
 
   </header>
+
+  <aside>
+    <div class="hero-image">
+       <div class="hero-text">
+        <h3></h3>
+        
+        
+       </div>
+    </div>
+  </aside>
 
 
   <p>Enthusiastic and hard working web developer with a four weeks experience seeking a position with Site Smart
@@ -133,14 +152,14 @@
       </ul>
     </article>
   </section>
-  <footer>
-    <h3 id="contacts"> Contact Details</h3>
+  <footer >
+    <h3 id="contacts" class="ftopic"> Contact Details</h3>
     <ul class="f2">
       <li><a href="https://github.com/TheCyberAyo" target="_blank">Github</a></li>
       <li><a href="https://www.linkedin.com/in/ayongezwa-ndamase-761b14217/" target="_blank">LinkedIn</a></li>
       <li><a href="https://www.instagram.com/ayongezwah/" target="_blank">Instagram</a></li>
     </ul>
-    <h3>Potential Employee Feedback</h3>
+    <h3 class="ftopic">Potential Employee Feedback</h3>
 
     <form action="https://formsubmit.co/ndamaseayongezwa@gmail.com" method="POST" class="f1">
         <ul>                 
@@ -151,18 +170,18 @@
          <li><label for="story">How may I get back to you? </label></li>
 
          <li><textarea id="comment" name="comment" rows="3" cols="45">
-Call: +27.../email
-</textarea></li>
-        <p>How pleased are you with this resume?</p>
-        <input type="radio" name="rating" value="veryPleased">
-        <label for="rating">Very pleased</label>
-        <input type="radio" name="rating" value="pleased">
-        <label for="rating">Pleased</label>
-        <input type="radio" name="rating" value="satisfactory">
-        <label for="rating">Satisfactory</label>
-        </ul>
-        <br>
-        <button type="submit" style="color:#73AD21";>Submit Feedback</button>
+          Call: +27.../email
+         </textarea></li>
+         <p>How pleased are you with this resume?</p>
+         <input type="radio" name="rating" value="veryPleased">
+         <label for="rating">Very pleased</label>
+         <input type="radio" name="rating" value="pleased">
+         <label for="rating">Pleased</label>
+         <input type="radio" name="rating" value="satisfactory">
+         <label for="rating">Satisfactory</label>
+         </ul>
+         <br>
+         <button type="submit" style="color:#73AD21";>Submit Feedback</button>
     </form>
     <form class="top">
       <input type="BUTTON" value="Back to top of page" onclick="window.location.href='#top'">
