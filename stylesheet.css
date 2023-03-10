@@ -3,6 +3,7 @@ header
   font-size: small;
   padding: 0px;
   width: 95%;
+  margin-top: 0px;
   height: fit-content;
   box-sizing: inherit;
   width: 100%;
@@ -46,10 +47,14 @@ h2 {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  font-size: medium;
   font-style: normal;
 }
 
+ul {
+ font-size: medium;
+
+}
 .subtopic {
   color: white;
   width: fit-content;
@@ -90,7 +95,7 @@ img {
   height: fit-content;
   border: dotted thin #73AD21;
   padding: 10px;
-  position: sticky;
+  position: fixed;
   z-index: 3;
 }
 
@@ -136,16 +141,15 @@ article {
 
 #leftbox {
   float: left;
-  justify-content: center;
+  justify-content: left;
   width: 50%;
   height: 100px;
 }
 
 
-
 #rightbox {
   float: right;
-  justify-content: center;
+  justify-content: right;
   width: 50%;
   height: 100px;
 
@@ -153,14 +157,14 @@ article {
 
 #right {
   float: right;
-  justify-content: center;
+  justify-content: right;
   width: 50%;
   height: 80px;
 }
 
 #left {
   float: left;
-  justify-content: center;
+  justify-content: left;
   width: 50%;
   height: 80px;
   text-decoration: none;
@@ -169,7 +173,7 @@ article {
 footer {
   background-color: #E0C6A6;
   margin: 0.5em;
-  padding: 10px 10px;
+  padding: 5px;
   border: thin dotted #73AD21;
   border-radius: 2%;
   text-align: center;
@@ -204,7 +208,7 @@ ul li {
 }
 
 .heroImage {
-	background-image: url('./images/Hero1.jpg');
+	background-image: url('./images/Hero2.jpg');
   margin: 10px;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,3 +218,96 @@ ul li {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: small;
+  }
+
+  ul{
+    font-size: x-small;
+  }
+
+  p{
+    font-size: small;
+  }
+
+  nav{
+    background-color: yellow;
+    font-size: x-small;
+  }
+
+  .special {
+    color: black;
+    border: dotted thin #73AD21;
+    padding: 5px;
+    position: fixed;
+    }
+
+  .heroImage{
+    background-image: url('./images/Hero.jpg');
+  }
+  
+  header {
+    color: #73AD21;
+  }
+
+  article {
+    margin: 2px;
+    
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+      font-size: small;
+    }
+  
+    ul{
+      font-size: large;
+    }
+  
+    p{
+      font-size: large;
+    }
+  
+    nav{
+      background-color: yellow;
+      font-size: x-small;
+    }
+  
+    .special {
+      color: black;
+      border: dotted thin #73AD21;
+      padding: 5px;
+      position: fixed;
+      }
+  
+    .heroImage{
+      background-image: url('./images/Hero1.jpg');
+    }
+    
+    header {
+      color: #caa006d6;
+    }
+  
+    article {
+      margin: 10px;
+    }
+
+    section{
+      background-color: #eee;
+      padding: 0.5em;
+      border: medium dotted #73AD21;
+      padding: 10px;
+    }
+
+    footer {
+      background-color: #eee;
+      margin: 0.5em;
+      padding: 10px;
+      border: medium dotted #73AD21;
+      border-radius: 3%;
+      font-size: large;
+    }
+    }
